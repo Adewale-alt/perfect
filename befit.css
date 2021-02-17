@@ -1,0 +1,288 @@
+.packer{
+    background-color: gainsboro;
+}
+
+* a{
+    text-decoration: none;
+}
+* ul li:hover{
+   border-bottom: solid 2px rgba(0, 0, 0, 0.61);
+    }
+.navbar-light{
+ background-color: rgba(43, 151, 223, 0.973);;
+ 
+
+}
+.navbar-brand a:hover{
+    border-bottom: none;
+}
+.navbar-brand{
+    margin-right: 38%;
+    margin-left: 20px;
+    font-size: 35px;
+    font-family: 'Bree Serif', serif;
+}
+ ul li{
+
+    font-size: 20px;
+}
+
+.dropdown-menu{
+    background-color: rgba(43, 151, 223, 0.973) ;
+    border: none;
+}
+
+
+.dropdown-menu a:hover{
+    background-color: gainsboro;
+    transition: 1s;
+}
+
+
+
+.main1{
+    background-image: url(pics/flex.jpg);
+    -webkit-filter: brightness(0.6);
+    margin-top: 70px;
+height: 400px;
+     background-repeat: no-repeat;
+    
+    
+}
+
+.note {
+    width: 100%;
+    height: 400px;
+
+}
+.holder{
+    width: 100%;
+    margin-top: 100px;
+    position: fixed;
+    
+}
+.holder h3{
+    text-align: center;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.61);
+    font-family: 'Bree Serif', serif;
+    
+}
+
+
+.service{
+    margin-top: 20px;
+    width: auto;
+    display: grid;
+    grid-template-columns:
+    '1fr'
+    ;
+    grid-template-areas:
+    'service1';
+    overflow-x: auto;
+}
+.service-text{
+     grid-area: 'service-text';
+     width: auto;
+     display: grid;
+     grid-template-columns: 1fr;
+}
+.service-text h3{
+    text-align: center;
+    text-decoration: underline rgba(0, 0, 0, 0.61);;
+    font-size: 30px;
+}
+.service1{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-self: center;
+}
+
+.service1 img{
+    margin: 0px 30px;
+}
+.service1 a h3{
+    margin: 20px 30px;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(43, 151, 223, 0.973);
+    font-weight:normal ;
+}
+
+
+.servicePro{
+    margin-top: 50px;
+    width: auto;
+    display: grid;
+    grid-template-columns:
+    '1fr'
+    ;
+    grid-template-areas:
+    'service2';
+    overflow-x: auto;
+}
+
+
+
+
+
+
+.service2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-self: center;
+}
+
+ img{
+    margin: 0px 30px;
+}
+.service2 a h3{
+    margin: 20px 30px;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(43, 151, 223, 0.973);
+    font-weight:normal ;
+}
+
+
+
+
+.serviceMax{
+    margin-top: 50px;
+    width: auto;
+    display: grid;
+    grid-template-columns:
+    '1fr'
+    ;
+    grid-template-areas:
+    'service2';
+    overflow-x: auto;
+}
+
+
+
+
+
+
+
+ img{
+    margin: 0px 30px;
+    border: 1.5px  rgba(43, 151, 223, 0.219) solid;
+    border-radius: 10px;
+}
+
+
+
+.sectionProMax{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    justify-self: center;
+    padding-bottom: 100px;
+}
+.button1{
+    justify-self: center;
+}
+.button2{
+    justify-self: center;
+}
+.button3{
+    justify-self: center;
+}
+.sectionProMax a button{
+    color: black;
+    font-size: 18px;
+    border: 2px  rgba(43, 151, 223, 0.219) solid;
+}
+.sectionProMax button{
+    width: 200px;
+    height: 40px;
+    background-color:  gray;
+    border: none;
+}
+.sectionProMax button:hover{
+    background-color:  rgba(43, 151, 223, 0.973);
+    transition: 1s;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color:  rgba(43, 151, 223, 0.219);
+}
+p{
+    font-weight: normal;
+    text-align: center;
+    margin: 15px 0px;
+    font-size: 18px;
+}
+.icons i{
+    margin: 0px 20px;
+    font-size: 25px;
+}
+.icons{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:990px){
+    ul li:hover{
+        border: none;
+         }
+}
+
+
+@media screen and (max-width:950px){
+    .main1{
+        background-image: url(pics/flex2.jpg);
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .main1{
+        background-image: url(pics/flex3.jpg);
+    }
+}
+
+@media screen and (max-width:350px){
+    .main1{
+        background-image: url(pics/flex4.jpg);
+    }
+}
+
+
+
+@media screen and (max-width:720px){
+    .sectionProMax{
+        grid-template-columns: 1fr;
+        
+    }
+    button{
+        margin: 20px 0px;
+    }
+}
+
+
+
+
+
+
+ 
+
+   
+
+
