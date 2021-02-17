@@ -1,0 +1,175 @@
+* {
+    user-select: none;
+}
+.packer{
+    background-color: gainsboro;
+}
+
+* a{
+    text-decoration: none;
+}
+* ul li:hover{
+   border-bottom: solid 2px rgba(0, 0, 0, 0.61);
+    }
+.navbar-light{
+ background-color: rgba(43, 151, 223, 0.973);;
+ 
+
+}
+.navbar-brand a:hover{
+    border-bottom: none;
+}
+.navbar-brand{
+    margin-right: 38%;
+    margin-left: 20px;
+    font-size: 35px;
+    font-family: 'Bree Serif', serif;
+}
+ ul li{
+
+    font-size: 20px;
+}
+
+.dropdown-menu{
+    background-color: rgba(43, 151, 223, 0.973) ;
+    border: none;
+}
+
+
+.dropdown-menu a:hover{
+    background-color: gainsboro;
+    transition: 1s;
+}
+
+
+
+
+
+
+.firstMain{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 80px;
+    padding-top: 70px;
+    background-color:#33333328;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+.box1{
+    width: 70%;
+    justify-self: center;
+    height: fit-content;
+}
+.box2{
+    text-align: center;
+}
+
+
+
+
+
+video{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+  }
+  form{
+      margin-top: 20px;
+  }
+  input {
+      text-align: center;
+      background-color:rgba(0, 0, 0, 0.61);
+      border: none;
+      outline: none;
+  }
+  .icon i{
+      font-size: 20px;
+      cursor: pointer;
+  }
+
+  .icon i:active{
+    
+        color: #004eff;
+        transform:scale(1.2);
+    
+  }
+ .box1 p{
+      font-size: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color:  rgba(43, 151, 223, 0.219);
+}
+p{
+    font-weight: normal;
+    text-align: center;
+    margin: 15px 0px;
+    font-size: 18px;
+}
+.icons i{
+    margin: 0px 20px;
+    font-size: 25px;
+}
+.icons{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:990px){
+    ul li:hover{
+        border: none;
+         }
+}
+@media screen and (max-width:650px){
+    .firstMain{
+        padding-top:50px ;
+    }
+    .box1{
+        width: 85%;
+    }
+}
